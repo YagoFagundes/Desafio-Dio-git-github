@@ -1,0 +1,78 @@
+*criação do banco
+create database if not exists Vendas
+
+default char set= utf8
+
+default collate = utf8_general_ci;
+
+*usar o banco
+use vendas;
+
+*criação de tabelas
+create table if not exists clientes (
+
+id smallint (10) auto_increment not null primary key,
+
+nome varchar(20) not null,
+
+sobrenome varchar (30),
+
+cpf int(13) not null,
+
+telefone int(12) not null,
+
+cidade varchar (30),
+
+estado enum ('SP','PR','SC','MG','AC','MG'),
+
+pais enum ('BR')
+
+);
+create table if not exists produtos (
+
+id smallint(10) auto_increment not null primary key,
+
+tipo enum ('camiseta','bone')
+
+);
+create table if not exists pedido (
+
+id smallint(10) auto_increment not null primary key,
+
+id_clientes smallint(10) not null,
+
+id_produtos smallint(10) not null,
+
+quantidade int(30),
+
+modo enum('fardo','unitario'),
+
+pagamento enum('avista','prazo'),
+
+entrega enum('sim','não')
+
+);
+
+
+*inserção de dados
+insert  clientes (nome, cpf, telefone, cidade, estado, pais)
+
+values ('joao','1221212546','4399635264','londrina','PR','BR'),
+
+('marcio','2536598520','119622475','sao paulo','SP','BR'),
+
+('cida','2579637205','7855214897','rio branco','AC','BR');
+
+
+INSERT INTO produtos (tipo) 
+VALUES ('bone');
+INSERT INTO produtos (tipo) 
+VALUES ('camiseta');
+
+INSERT INTO pedido (id_clientes, id_produtos, quantidade, modo, pagamento, entrega) 
+VALUES ('1', '1', '10', 'fardo', 'avista', 'sim'),
+('2', '1', '2', 'fardo', 'prazo', 'nao'),
+('1', '2', '30', 'unitario', 'avista', 'sim');
+
+
+

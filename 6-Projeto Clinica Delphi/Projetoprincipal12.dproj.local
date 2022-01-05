@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/08/23 20:01:48.000.791,=C:\Users\Yago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/23 20:02:35.000.147,=C:\Users\Yago\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/08/23 20:05:55.000.982,C:\Users\Yago\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Yago\Desktop\Projeto Clinica\UnitPrincipal.dfm</Transaction>
+    <Transaction>2021/08/23 20:05:55.000.982,C:\Users\Yago\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Yago\Desktop\Projeto Clinica\UnitPrincipal.pas</Transaction>
+    <Transaction>2021/08/23 22:42:27.000.267,C:\Users\Yago\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\Yago\Desktop\Projeto Clinica\projetoPrincipal.dfm</Transaction>
+    <Transaction>2021/08/23 22:42:27.000.267,C:\Users\Yago\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\Yago\Desktop\Projeto Clinica\projetoPrincipal.pas</Transaction>
+    <Transaction>2021/08/23 22:42:49.000.808,C:\Users\Yago\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Yago\Desktop\Projeto Clinica\Projetoprincipal12.dproj</Transaction>
+    <Transaction>2021/08/24 21:12:43.000.738,=C:\Users\Yago\Desktop\Projeto Clinica\Unit2.pas</Transaction>
+    <Transaction>2021/08/24 21:13:21.000.852,C:\Users\Yago\Desktop\Projeto Clinica\unidCadPaciente.dfm=C:\Users\Yago\Desktop\Projeto Clinica\Unit2.dfm</Transaction>
+    <Transaction>2021/08/24 21:13:21.000.852,C:\Users\Yago\Desktop\Projeto Clinica\unidCadPaciente.pas=C:\Users\Yago\Desktop\Projeto Clinica\Unit2.pas</Transaction>
+    <Transaction>2021/08/24 21:13:39.000.778,=C:\Users\Yago\Desktop\Projeto Clinica\Unit3.pas</Transaction>
+    <Transaction>2021/08/24 21:14:07.000.097,C:\Users\Yago\Desktop\Projeto Clinica\unidCadAgendamento.dfm=C:\Users\Yago\Desktop\Projeto Clinica\Unit3.dfm</Transaction>
+    <Transaction>2021/08/24 21:14:07.000.097,C:\Users\Yago\Desktop\Projeto Clinica\unidCadAgendamento.pas=C:\Users\Yago\Desktop\Projeto Clinica\Unit3.pas</Transaction>
+    <Transaction>2021/08/26 21:26:12.000.878,C:\Users\Yago\Desktop\Projeto Clinica\unidCadAgendamento.pas=</Transaction>
+    <Transaction>2021/08/26 21:28:02.000.787,C:\Users\Yago\Desktop\Projeto Clinica\unidCadPaciente.pas=</Transaction>
+    <Transaction>2021/08/26 21:48:07.000.257,=C:\Users\Yago\Desktop\Projeto Clinica\Unit1.pas</Transaction>
+    <Transaction>2021/08/26 21:50:43.000.540,=C:\Users\Yago\Desktop\Projeto Clinica\unidCadPaciente.pas</Transaction>
+    <Transaction>2021/08/26 23:28:01.000.920,=C:\Users\Yago\Desktop\Projeto Clinica\Unit1.pas</Transaction>
+    <Transaction>2021/08/26 23:29:11.000.046,C:\Users\Yago\Desktop\Projeto Clinica\Unit1.dfm=C:\Users\Yago\Desktop\Projeto Clinica\unidCadProntuario.dfm</Transaction>
+    <Transaction>2021/08/26 23:29:11.000.046,C:\Users\Yago\Desktop\Projeto Clinica\Unit1.pas=C:\Users\Yago\Desktop\Projeto Clinica\unidCadProntuario.pas</Transaction>
+    <Transaction>2021/08/28 23:50:48.000.652,=C:\Users\Yago\Desktop\Projeto Clinica\Unit1.pas</Transaction>
+    <Transaction>2021/08/28 23:52:09.000.161,C:\Users\Yago\Desktop\Projeto Clinica\unidCadAgendamento.pas=C:\Users\Yago\Desktop\Projeto Clinica\Unit1.pas</Transaction>
+    <Transaction>2021/08/28 23:52:09.000.161,C:\Users\Yago\Desktop\Projeto Clinica\unidCadAgendamento.dfm=C:\Users\Yago\Desktop\Projeto Clinica\Unit1.dfm</Transaction>
+    <Transaction>2021/08/29 00:07:51.000.944,=C:\Users\Yago\Desktop\Projeto Clinica\Unit1.pas</Transaction>
+    <Transaction>2021/08/29 00:19:35.000.188,C:\Users\Yago\Desktop\Projeto Clinica\unidBancoDados.pas=C:\Users\Yago\Desktop\Projeto Clinica\Unit1.pas</Transaction>
+    <Transaction>2021/08/29 00:19:35.000.188,C:\Users\Yago\Desktop\Projeto Clinica\unidBancoDados.dfm=C:\Users\Yago\Desktop\Projeto Clinica\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

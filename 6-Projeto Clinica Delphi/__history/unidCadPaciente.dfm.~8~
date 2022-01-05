@@ -1,0 +1,140 @@
+object FormCadPaciente: TFormCadPaciente
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Cadastro Paciente'
+  ClientHeight = 468
+  ClientWidth = 709
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = 32
+    Top = 125
+    Width = 12
+    Height = 16
+    Caption = 'ID'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Top = 189
+    Width = 91
+    Height = 16
+    Caption = 'Nome Completo'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 32
+    Top = 253
+    Width = 89
+    Height = 16
+    Caption = 'Numero Celular'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 240
+    Top = 253
+    Width = 22
+    Height = 16
+    Caption = 'CPF'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 32
+    Top = 317
+    Width = 81
+    Height = 16
+    Caption = 'Data Cadastro'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 709
+    Height = 97
+    Align = alTop
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 32
+      Top = 29
+      Width = 252
+      Height = 29
+      Caption = 'Cadastro de Paciente'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -24
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object DBEdit2: TDBEdit
+    Left = 32
+    Top = 144
+    Width = 97
+    Height = 21
+    TabOrder = 1
+  end
+  object DBEdit1: TDBEdit
+    Left = 32
+    Top = 208
+    Width = 377
+    Height = 21
+    TabOrder = 2
+  end
+  object DBEdit3: TDBEdit
+    Left = 32
+    Top = 272
+    Width = 161
+    Height = 21
+    TabOrder = 3
+  end
+  object DBEdit4: TDBEdit
+    Left = 240
+    Top = 272
+    Width = 169
+    Height = 21
+    TabOrder = 4
+  end
+  object DBEdit5: TDBEdit
+    Left = 32
+    Top = 336
+    Width = 177
+    Height = 21
+    TabOrder = 5
+  end
+end

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Yago"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-14 08:06:52 "/>
+        <attribute name="created" value="WWFnbztERVNLVE9QLURWR0hWNjA7MjAyMS0xMi0xNDsiMDc6MzE6MTUgIjsyNjUz"/>
+        <attribute name="edited" value="WWFnbztERVNLVE9QLURWR0hWNjA7MjAyMS0xMi0xNDsiMDg6MDY6NTIgIjsxOzI3NjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numeral, multiplicador, tabuada" type="Integer" array="False" size=""/>
+            <assign variable="numeral" expression="0"/>
+            <output expression="&quot;Qual vai ser a Tabuada?&quot;" newline="True"/>
+            <input variable="multiplicador"/>
+            <assign variable="tabuada" expression="multiplicador*10"/>
+            <while expression="numeral &lt;= tabuada">
+                <output expression="&quot;Resultado &quot; &amp;numeral" newline="True"/>
+                <assign variable="numeral" expression="numeral+multiplicador"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

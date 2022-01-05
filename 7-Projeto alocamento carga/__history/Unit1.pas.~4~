@@ -1,0 +1,92 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Menus;
+
+type
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    largCaixa1: TEdit;
+    Button1: TButton;
+    Label2: TLabel;
+    altCaixa1: TEdit;
+    Label3: TLabel;
+    compCaixa1: TEdit;
+    Label4: TLabel;
+    Label5: TLabel;
+    largCaixa2: TEdit;
+    Label6: TLabel;
+    altCaixa2: TEdit;
+    Label7: TLabel;
+    compCaixa2: TEdit;
+    Label8: TLabel;
+    Label9: TLabel;
+    largCaixa3: TEdit;
+    Label10: TLabel;
+    altCaixa3: TEdit;
+    Label11: TLabel;
+    compCaixa3: TEdit;
+    Label12: TLabel;
+    Label13: TLabel;
+    largCaixa4: TEdit;
+    Label14: TLabel;
+    altCaixa4: TEdit;
+    Label15: TLabel;
+    compCaixa4: TEdit;
+    Label16: TLabel;
+    Label17: TLabel;
+    largCaixa5: TEdit;
+    Label18: TLabel;
+    altCaixa5: TEdit;
+    Label19: TLabel;
+    compCaixa5: TEdit;
+    Label20: TLabel;
+    Label21: TLabel;
+    largCaminhao: TEdit;
+    Label22: TLabel;
+    altCaminhao: TEdit;
+    Label23: TLabel;
+    compCaminhao: TEdit;
+    Label24: TLabel;
+    GroupBox1: TGroupBox;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  if (largCaminhao.Text = '') and (altCaminhao.Text = '') and (compCaminhao.Text = '') then
+    begin
+      showMessage('Preencha os dados do Caminhão!');
+    end;
+
+  if (largCaixa1.Text = '') and (altCaixa1.Text = '') and (compCaixa1.Text = '')
+   and (largCaixa2.Text = '') and (altCaixa2.Text = '') and (compCaixa2.Text = '')
+   and (largCaixa3.Text = '') and (altCaixa3.Text = '') and (compCaixa3.Text = '')
+   and (largCaixa4.Text = '') and (altCaixa4.Text = '') and (compCaixa4.Text = '')
+   and (largCaixa5.Text = '') and (altCaixa5.Text = '') and (compCaixa5.Text = '') then
+   begin
+     showMessage ('Preencha os Dados da Caixa!')
+   end
+
+   else
+    begin
+      showMessage ('Carga Projetada!');
+    end;
+
+end;
+
+end.

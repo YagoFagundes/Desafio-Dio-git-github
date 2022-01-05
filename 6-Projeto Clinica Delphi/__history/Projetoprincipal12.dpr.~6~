@@ -1,0 +1,19 @@
+program Projetoprincipal12;
+
+uses
+  Vcl.Forms,
+  UnitPrincipal in 'UnitPrincipal.pas' {FormPrincipal},
+  unidCadPaciente in 'unidCadPaciente.pas' {FormCadPaciente};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFormPrincipal, FormPrincipal);
+  Application.CreateForm(TFormCadPaciente, FormCadPaciente);
+  //  Application.CreateForm(TForm1, Form1);
+ // Application.CreateForm(TForm1, Form1);
+ // Application.CreateForm(TDataModule2, DataModule2);
+  Application.Run;
+end.

@@ -1,0 +1,23 @@
+program Projetoprincipal12;
+
+uses
+  Vcl.Forms,
+  UnitPrincipal in 'UnitPrincipal.pas' {FormPrincipal},
+  projetoPrincipal in 'projetoPrincipal.pas' {dmClinica: TDataModule},
+  unidCadPaciente in 'unidCadPaciente.pas' {FormCadPaciente},
+  unidCadAgendamento in 'unidCadAgendamento.pas' {FormCadAgendamento};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFormPrincipal, FormPrincipal);
+  Application.CreateForm(TdmClinica, dmClinica);
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TDataModule2, DataModule2);
+  Application.CreateForm(TFormCadPaciente, FormCadPaciente);
+  Application.CreateForm(TFormCadAgendamento, FormCadAgendamento);
+  Application.Run;
+end.

@@ -1,0 +1,70 @@
+unit UnitPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls;
+
+type
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    NomeUsuario: TEdit;
+    ConfirmaCadastro: TButton;
+    Label2: TLabel;
+    EnderecoUsuario: TEdit;
+    Label3: TLabel;
+    BairroUsuario: TEdit;
+    Label4: TLabel;
+    CidadeUsuario: TEdit;
+    Label5: TLabel;
+    EstadoUsuario: TEdit;
+    Label6: TLabel;
+    Label7: TLabel;
+    RadioButton1: TRadioButton;
+    RadioButton2: TRadioButton;
+    RadioButton3: TRadioButton;
+    Selecione: TComboBox;
+    ResetarCadastro: TButton;
+    CancelarCadastro: TButton;
+    PageControl1: TPageControl;
+    TabSheet1: TTabSheet;
+    Label8: TLabel;
+    Edit1: TEdit;
+    Button1: TButton;
+    Edit2: TEdit;
+    Button2: TButton;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Label10: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
+    Label13: TLabel;
+    Label14: TLabel;
+    Label15: TLabel;
+    Edit5: TEdit;
+    RadioButton4: TRadioButton;
+    RadioButton5: TRadioButton;
+    RadioButton6: TRadioButton;
+    Button3: TButton;
+    TabSheet2: TTabSheet;
+    procedure ConfirmaCadastroClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.ConfirmaCadastroClick(Sender: TObject);
+begin
+  ShowMessage ( 'Cliente Cadastrado com Sucesso');
+end;
+
+end.

@@ -1,0 +1,196 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro de Cliente'
+  ClientHeight = 465
+  ClientWidth = 485
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 143
+    Top = 8
+    Width = 211
+    Height = 24
+    Caption = 'Cadastro de Clientes'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Arial Rounded MT Bold'
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 40
+    Top = 53
+    Width = 104
+    Height = 15
+    Caption = 'Nome Completo'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial Rounded MT Bold'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 40
+    Top = 101
+    Width = 63
+    Height = 15
+    Caption = 'Endere'#231'o'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial Rounded MT Bold'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 40
+    Top = 149
+    Width = 41
+    Height = 15
+    Caption = 'Bairro'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial Rounded MT Bold'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 40
+    Top = 197
+    Width = 46
+    Height = 15
+    Caption = 'Cidade'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial Rounded MT Bold'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 288
+    Top = 197
+    Width = 45
+    Height = 15
+    Caption = 'Estado'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial Rounded MT Bold'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 40
+    Top = 245
+    Width = 32
+    Height = 15
+    Caption = 'Sexo'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial Rounded MT Bold'
+    Font.Style = []
+    ParentFont = False
+  end
+  object NomeUsuario: TEdit
+    Left = 40
+    Top = 74
+    Width = 401
+    Height = 21
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 366
+    Top = 411
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object EnderecoUsuario: TEdit
+    Left = 40
+    Top = 120
+    Width = 401
+    Height = 21
+    TabOrder = 2
+  end
+  object BairroUsuario: TEdit
+    Left = 40
+    Top = 168
+    Width = 401
+    Height = 21
+    TabOrder = 3
+    OnChange = BairroUsuarioChange
+  end
+  object CidadeUsuario: TEdit
+    Left = 40
+    Top = 216
+    Width = 209
+    Height = 21
+    TabOrder = 4
+    OnChange = CidadeUsuarioChange
+  end
+  object EstadoUsuario: TEdit
+    Left = 288
+    Top = 218
+    Width = 153
+    Height = 21
+    TabOrder = 5
+    OnChange = CidadeUsuarioChange
+  end
+  object RadioButton1: TRadioButton
+    Left = 40
+    Top = 266
+    Width = 113
+    Height = 17
+    Caption = 'Masculino'
+    TabOrder = 6
+  end
+  object RadioButton2: TRadioButton
+    Left = 122
+    Top = 266
+    Width = 113
+    Height = 17
+    Caption = 'Feminino'
+    TabOrder = 7
+  end
+  object RadioButton3: TRadioButton
+    Left = 201
+    Top = 266
+    Width = 113
+    Height = 17
+    Caption = 'indefinido'
+    TabOrder = 8
+  end
+  object Button2: TButton
+    Left = 201
+    Top = 411
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    TabOrder = 9
+    OnClick = Button1Click
+  end
+  object Button3: TButton
+    Left = 40
+    Top = 411
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    TabOrder = 10
+    OnClick = Button1Click
+  end
+end
