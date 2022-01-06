@@ -1,0 +1,497 @@
+Yago@DESKTOP-DVGHV60 MINGW64 ~/Desktop
+$ cd ..
+
+Yago@DESKTOP-DVGHV60 MINGW64 ~
+$ cd yagoteste/
+
+Yago@DESKTOP-DVGHV60 MINGW64 ~/yagoteste
+$ ls
+libretaxi/  livro-receita/  uber_clone_with_flutter/
+
+Yago@DESKTOP-DVGHV60 MINGW64 ~/yagoteste
+$ git clone https://github.com/YagoFagundes/Desafio-Dio-git-github.git
+Cloning into 'Desafio-Dio-git-github'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Yago@DESKTOP-DVGHV60 MINGW64 ~/yagoteste
+$ ls
+Desafio-Dio-git-github/  libretaxi/  livro-receita/  uber_clone_with_flutter/
+
+Yago@DESKTOP-DVGHV60 MINGW64 ~/yagoteste
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Yago@DESKTOP-DVGHV60 MINGW64 ~/yagoteste
+$ ls
+Desafio_Dio_git_github/  libretaxi/  livro-receita/  uber_clone_with_flutter/
+
+Yago@DESKTOP-DVGHV60 MINGW64 ~/yagoteste
+$ cd Desafio_Dio_git_github/
+
+Yago@DESKTOP-DVGHV60 MINGW64 ~/yagoteste/Desafio_Dio_git_github (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+       	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+       	1-banco de dados.txt
+       	2-tabuada.fprg
+       	3-Projetos portugol Dio/
+       	4-Primeira tabela de cadastro delphi/
+       	5- Projeto Agenda Delphi/
+       	6-Projeto Clinica Delphi/
+       	7-Projeto alocamento carga/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Yago@DESKTOP-DVGHV60 MINGW64 ~/yagoteste/Desafio_Dio_git_github (main)
+$ git add *
+warning: LF will be replaced by CRLF in 1-banco de dados.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2-tabuada.fprg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 3-Projetos portugol Dio/laco escolha.por.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 3-Projetos portugol Dio/matriz.por.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 3-Projetos portugol Dio/media.por.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 3-Projetos portugol Dio/tabuada.por.
+The file will have its original line endings in your working directory
+
+Yago@DESKTOP-DVGHV60 MINGW64 ~/yagoteste/Desafio_Dio_git_github (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+       	new file:   1-banco de dados.txt
+       	new file:   2-tabuada.fprg
+       	new file:   3-Projetos portugol Dio/laco escolha.por
+       	new file:   3-Projetos portugol Dio/matriz.por
+       	new file:   3-Projetos portugol Dio/media.por
+       	new file:   3-Projetos portugol Dio/tabuada.por
+       	new file:   4-Primeira tabela de cadastro delphi/PrimeiroSistema.dpr
+       	new file:   4-Primeira tabela de cadastro delphi/PrimeiroSistema.dproj
+       	new file:   4-Primeira tabela de cadastro delphi/PrimeiroSistema.dproj.local
+       	new file:   4-Primeira tabela de cadastro delphi/PrimeiroSistema.identcache
+       	new file:   4-Primeira tabela de cadastro delphi/PrimeiroSistema.res
+       	new file:   4-Primeira tabela de cadastro delphi/UnitPrincipal.dfm
+       	new file:   4-Primeira tabela de cadastro delphi/UnitPrincipal.pas
+       	new file:   4-Primeira tabela de cadastro delphi/UnitPrincipal.vlb
+       	new file:   4-Primeira tabela de cadastro delphi/Win32/Debug/PrimeiroSistema.exe
+       	new file:   4-Primeira tabela de cadastro delphi/Win32/Debug/UnitPrincipal.dcu
+       	new file:   4-Primeira tabela de cadastro delphi/__history/PrimeiroSistema.dpr.~1~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~10~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~11~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~12~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~3~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~4~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~5~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~6~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~7~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~8~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~9~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~10~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~1~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~2~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~3~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~4~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~5~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~6~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~7~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~8~
+       	new file:   4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~9~
+       	new file:   5- Projeto Agenda Delphi/ProjetoAgenda.dpr
+       	new file:   5- Projeto Agenda Delphi/ProjetoAgenda.dproj
+       	new file:   5- Projeto Agenda Delphi/ProjetoAgenda.dproj.local
+       	new file:   5- Projeto Agenda Delphi/ProjetoAgenda.identcache
+       	new file:   5- Projeto Agenda Delphi/ProjetoAgenda.res
+       	new file:   5- Projeto Agenda Delphi/UnitDM.dfm
+       	new file:   5- Projeto Agenda Delphi/UnitDM.pas
+       	new file:   5- Projeto Agenda Delphi/UnitPrincipal.dfm
+       	new file:   5- Projeto Agenda Delphi/UnitPrincipal.pas
+       	new file:   5- Projeto Agenda Delphi/Win32/Debug/ProjetoAgenda.exe
+       	new file:   5- Projeto Agenda Delphi/Win32/Debug/UnitDM.dcu
+       	new file:   5- Projeto Agenda Delphi/Win32/Debug/UnitPrincipal.dcu
+       	new file:   5- Projeto Agenda Delphi/__history/UnitDM.dfm.~1~
+       	new file:   5- Projeto Agenda Delphi/__history/UnitDM.dfm.~2~
+       	new file:   5- Projeto Agenda Delphi/__history/UnitDM.pas.~1~
+       	new file:   5- Projeto Agenda Delphi/__history/UnitDM.pas.~2~
+       	new file:   5- Projeto Agenda Delphi/__history/UnitPrincipal.dfm.~1~
+       	new file:   5- Projeto Agenda Delphi/__history/UnitPrincipal.dfm.~2~
+       	new file:   5- Projeto Agenda Delphi/__history/UnitPrincipal.dfm.~3~
+       	new file:   5- Projeto Agenda Delphi/__history/UnitPrincipal.dfm.~4~
+       	new file:   5- Projeto Agenda Delphi/__history/UnitPrincipal.dfm.~5~
+       	new file:   5- Projeto Agenda Delphi/__history/UnitPrincipal.pas.~1~
+       	new file:   5- Projeto Agenda Delphi/__history/UnitPrincipal.pas.~2~
+       	new file:   5- Projeto Agenda Delphi/__history/UnitPrincipal.pas.~3~
+       	new file:   5- Projeto Agenda Delphi/__history/UnitPrincipal.pas.~4~
+       	new file:   5- Projeto Agenda Delphi/__history/UnitPrincipal.pas.~5~
+       	new file:   5- Projeto Agenda Delphi/__history/UnitPrincipal.pas.~6~
+       	new file:   6-Projeto Clinica Delphi/Projetoprincipal12.dpr
+       	new file:   6-Projeto Clinica Delphi/Projetoprincipal12.dproj
+       	new file:   6-Projeto Clinica Delphi/Projetoprincipal12.dproj.local
+       	new file:   6-Projeto Clinica Delphi/Projetoprincipal12.identcache
+       	new file:   6-Projeto Clinica Delphi/Projetoprincipal12.res
+       	new file:   6-Projeto Clinica Delphi/UnitPrincipal.dfm
+       	new file:   6-Projeto Clinica Delphi/UnitPrincipal.pas
+       	new file:   6-Projeto Clinica Delphi/Win32/Debug/Projetoprincipal12.exe
+       	new file:   6-Projeto Clinica Delphi/Win32/Debug/UnitPrincipal.dcu
+       	new file:   6-Projeto Clinica Delphi/Win32/Debug/unidBancoDados.dcu
+       	new file:   6-Projeto Clinica Delphi/Win32/Debug/unidCadAgendamento.dcu
+       	new file:   6-Projeto Clinica Delphi/Win32/Debug/unidCadPaciente.dcu
+       	new file:   6-Projeto Clinica Delphi/Win32/Debug/unidCadProntuario.dcu
+       	new file:   6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~1~
+       	new file:   6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~2~
+       	new file:   6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~3~
+       	new file:   6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~4~
+       	new file:   6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~5~
+       	new file:   6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~6~
+       	new file:   6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~7~
+       	new file:   6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~8~
+       	new file:   6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~9~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~10~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~11~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~2~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~3~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~4~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~5~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~6~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~7~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~8~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~9~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~1~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~2~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~3~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~4~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~5~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~6~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~7~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~8~
+       	new file:   6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~9~
+       	new file:   6-Projeto Clinica Delphi/__history/projetoPrincipal.dfm.~1~
+       	new file:   6-Projeto Clinica Delphi/__history/projetoPrincipal.pas.~1~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~1~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~2~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~3~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~4~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~5~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~6~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~7~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~8~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~9~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.pas.~1~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.pas.~2~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.pas.~3~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.pas.~4~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.pas.~5~
+       	new file:   6-Projeto Clinica Delphi/__history/unidBancoDados.pas.~6~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~10~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~11~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~12~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~13~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~4~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~5~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~6~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~7~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~8~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~9~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.pas.~1~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.pas.~2~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.pas.~3~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.pas.~4~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadAgendamento.pas.~5~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~10~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~11~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~12~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~13~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~14~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~15~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~16~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~17~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~8~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~9~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.pas.~1~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.pas.~2~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.pas.~3~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.pas.~4~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.pas.~5~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadPaciente.pas.~6~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~1~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~2~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~3~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~4~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~5~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~6~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~7~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~8~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadProntuario.pas.~1~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadProntuario.pas.~2~
+       	new file:   6-Projeto Clinica Delphi/__history/unidCadProntuario.pas.~3~
+       	new file:   6-Projeto Clinica Delphi/imagens/1492608034-17-calender-schedule-time-management-control-day_83385.bmp
+       	new file:   6-Projeto Clinica Delphi/imagens/calendar-icon_34471.bmp
+       	new file:   6-Projeto Clinica Delphi/imagens/contactlist_theuser_802.bmp
+       	new file:   6-Projeto Clinica Delphi/imagens/images.png
+       	new file:   6-Projeto Clinica Delphi/imagens/kdmmaleuser_user_person_man_5919.bmp
+       	new file:   6-Projeto Clinica Delphi/imagens/medical-11_icon-icons.com_73929.bmp
+       	new file:   6-Projeto Clinica Delphi/unidBancoDados.dfm
+       	new file:   6-Projeto Clinica Delphi/unidBancoDados.pas
+       	new file:   6-Projeto Clinica Delphi/unidCadAgendamento.dfm
+       	new file:   6-Projeto Clinica Delphi/unidCadAgendamento.pas
+       	new file:   6-Projeto Clinica Delphi/unidCadPaciente.dfm
+       	new file:   6-Projeto Clinica Delphi/unidCadPaciente.pas
+       	new file:   6-Projeto Clinica Delphi/unidCadProntuario.dfm
+       	new file:   6-Projeto Clinica Delphi/unidCadProntuario.pas
+       	new file:   7-Projeto alocamento carga/Project1.dpr
+       	new file:   7-Projeto alocamento carga/Project1.dproj
+       	new file:   7-Projeto alocamento carga/Project1.dproj.local
+       	new file:   7-Projeto alocamento carga/Project1.identcache
+       	new file:   7-Projeto alocamento carga/Project1.res
+       	new file:   7-Projeto alocamento carga/Unit1.dfm
+       	new file:   7-Projeto alocamento carga/Unit1.pas
+       	new file:   7-Projeto alocamento carga/Win32/Debug/Project1.exe
+       	new file:   7-Projeto alocamento carga/Win32/Debug/Unit1.dcu
+       	new file:   7-Projeto alocamento carga/__history/Unit1.dfm.~1~
+       	new file:   7-Projeto alocamento carga/__history/Unit1.dfm.~2~
+       	new file:   7-Projeto alocamento carga/__history/Unit1.pas.~1~
+       	new file:   7-Projeto alocamento carga/__history/Unit1.pas.~2~
+       	new file:   7-Projeto alocamento carga/__history/Unit1.pas.~3~
+       	new file:   7-Projeto alocamento carga/__history/Unit1.pas.~4~
+       	new file:   7-Projeto alocamento carga/__history/Unit1.pas.~5~
+       	modified:   README.md
+
+
+Yago@DESKTOP-DVGHV60 MINGW64 ~/yagoteste/Desafio_Dio_git_github (main)
+$ git commit -m "Todos Meus Projetos"
+[main e17d478] Todos Meus Projetos
+ 195 files changed, 24239 insertions(+), 2 deletions(-)
+ create mode 100644 1-banco de dados.txt
+ create mode 100644 2-tabuada.fprg
+ create mode 100644 3-Projetos portugol Dio/laco escolha.por
+ create mode 100644 3-Projetos portugol Dio/matriz.por
+ create mode 100644 3-Projetos portugol Dio/media.por
+ create mode 100644 3-Projetos portugol Dio/tabuada.por
+ create mode 100644 4-Primeira tabela de cadastro delphi/PrimeiroSistema.dpr
+ create mode 100644 4-Primeira tabela de cadastro delphi/PrimeiroSistema.dproj
+ create mode 100644 4-Primeira tabela de cadastro delphi/PrimeiroSistema.dproj.local
+ create mode 100644 4-Primeira tabela de cadastro delphi/PrimeiroSistema.identcache
+ create mode 100644 4-Primeira tabela de cadastro delphi/PrimeiroSistema.res
+ create mode 100644 4-Primeira tabela de cadastro delphi/UnitPrincipal.dfm
+ create mode 100644 4-Primeira tabela de cadastro delphi/UnitPrincipal.pas
+ create mode 100644 4-Primeira tabela de cadastro delphi/UnitPrincipal.vlb
+ create mode 100644 4-Primeira tabela de cadastro delphi/Win32/Debug/PrimeiroSistema.exe
+ create mode 100644 4-Primeira tabela de cadastro delphi/Win32/Debug/UnitPrincipal.dcu
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/PrimeiroSistema.dpr.~1~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~10~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~11~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~12~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~3~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~4~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~5~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~6~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~7~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~8~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.dfm.~9~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~10~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~1~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~2~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~3~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~4~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~5~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~6~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~7~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~8~
+ create mode 100644 4-Primeira tabela de cadastro delphi/__history/UnitPrincipal.pas.~9~
+ create mode 100644 5- Projeto Agenda Delphi/ProjetoAgenda.dpr
+ create mode 100644 5- Projeto Agenda Delphi/ProjetoAgenda.dproj
+ create mode 100644 5- Projeto Agenda Delphi/ProjetoAgenda.dproj.local
+ create mode 100644 5- Projeto Agenda Delphi/ProjetoAgenda.identcache
+ create mode 100644 5- Projeto Agenda Delphi/ProjetoAgenda.res
+ create mode 100644 5- Projeto Agenda Delphi/UnitDM.dfm
+ create mode 100644 5- Projeto Agenda Delphi/UnitDM.pas
+ create mode 100644 5- Projeto Agenda Delphi/UnitPrincipal.dfm
+ create mode 100644 5- Projeto Agenda Delphi/UnitPrincipal.pas
+ create mode 100644 5- Projeto Agenda Delphi/Win32/Debug/ProjetoAgenda.exe
+ create mode 100644 5- Projeto Agenda Delphi/Win32/Debug/UnitDM.dcu
+ create mode 100644 5- Projeto Agenda Delphi/Win32/Debug/UnitPrincipal.dcu
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitDM.dfm.~1~
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitDM.dfm.~2~
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitDM.pas.~1~
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitDM.pas.~2~
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitPrincipal.dfm.~1~
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitPrincipal.dfm.~2~
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitPrincipal.dfm.~3~
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitPrincipal.dfm.~4~
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitPrincipal.dfm.~5~
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitPrincipal.pas.~1~
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitPrincipal.pas.~2~
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitPrincipal.pas.~3~
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitPrincipal.pas.~4~
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitPrincipal.pas.~5~
+ create mode 100644 5- Projeto Agenda Delphi/__history/UnitPrincipal.pas.~6~
+ create mode 100644 6-Projeto Clinica Delphi/Projetoprincipal12.dpr
+ create mode 100644 6-Projeto Clinica Delphi/Projetoprincipal12.dproj
+ create mode 100644 6-Projeto Clinica Delphi/Projetoprincipal12.dproj.local
+ create mode 100644 6-Projeto Clinica Delphi/Projetoprincipal12.identcache
+ create mode 100644 6-Projeto Clinica Delphi/Projetoprincipal12.res
+ create mode 100644 6-Projeto Clinica Delphi/UnitPrincipal.dfm
+ create mode 100644 6-Projeto Clinica Delphi/UnitPrincipal.pas
+ create mode 100644 6-Projeto Clinica Delphi/Win32/Debug/Projetoprincipal12.exe
+ create mode 100644 6-Projeto Clinica Delphi/Win32/Debug/UnitPrincipal.dcu
+ create mode 100644 6-Projeto Clinica Delphi/Win32/Debug/unidBancoDados.dcu
+ create mode 100644 6-Projeto Clinica Delphi/Win32/Debug/unidCadAgendamento.dcu
+ create mode 100644 6-Projeto Clinica Delphi/Win32/Debug/unidCadPaciente.dcu
+ create mode 100644 6-Projeto Clinica Delphi/Win32/Debug/unidCadProntuario.dcu
+ create mode 100644 6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~1~
+ create mode 100644 6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~2~
+ create mode 100644 6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~3~
+ create mode 100644 6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~4~
+ create mode 100644 6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~5~
+ create mode 100644 6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~6~
+ create mode 100644 6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~7~
+ create mode 100644 6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~8~
+ create mode 100644 6-Projeto Clinica Delphi/__history/Projetoprincipal12.dpr.~9~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~10~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~11~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~2~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~3~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~4~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~5~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~6~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~7~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~8~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.dfm.~9~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~1~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~2~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~3~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~4~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~5~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~6~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~7~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~8~
+ create mode 100644 6-Projeto Clinica Delphi/__history/UnitPrincipal.pas.~9~
+ create mode 100644 6-Projeto Clinica Delphi/__history/projetoPrincipal.dfm.~1~
+ create mode 100644 6-Projeto Clinica Delphi/__history/projetoPrincipal.pas.~1~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~1~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~2~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~3~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~4~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~5~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~6~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~7~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~8~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.dfm.~9~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.pas.~1~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.pas.~2~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.pas.~3~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.pas.~4~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.pas.~5~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidBancoDados.pas.~6~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~10~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~11~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~12~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~13~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~4~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~5~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~6~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~7~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~8~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.dfm.~9~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.pas.~1~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.pas.~2~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.pas.~3~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.pas.~4~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadAgendamento.pas.~5~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~10~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~11~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~12~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~13~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~14~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~15~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~16~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~17~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~8~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.dfm.~9~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.pas.~1~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.pas.~2~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.pas.~3~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.pas.~4~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.pas.~5~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadPaciente.pas.~6~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~1~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~2~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~3~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~4~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~5~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~6~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~7~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadProntuario.dfm.~8~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadProntuario.pas.~1~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadProntuario.pas.~2~
+ create mode 100644 6-Projeto Clinica Delphi/__history/unidCadProntuario.pas.~3~
+ create mode 100644 6-Projeto Clinica Delphi/imagens/1492608034-17-calender-schedule-time-management-control-day_83385.bmp
+ create mode 100644 6-Projeto Clinica Delphi/imagens/calendar-icon_34471.bmp
+ create mode 100644 6-Projeto Clinica Delphi/imagens/contactlist_theuser_802.bmp
+ create mode 100644 6-Projeto Clinica Delphi/imagens/images.png
+ create mode 100644 6-Projeto Clinica Delphi/imagens/kdmmaleuser_user_person_man_5919.bmp
+ create mode 100644 6-Projeto Clinica Delphi/imagens/medical-11_icon-icons.com_73929.bmp
+ create mode 100644 6-Projeto Clinica Delphi/unidBancoDados.dfm
+ create mode 100644 6-Projeto Clinica Delphi/unidBancoDados.pas
+ create mode 100644 6-Projeto Clinica Delphi/unidCadAgendamento.dfm
+ create mode 100644 6-Projeto Clinica Delphi/unidCadAgendamento.pas
+ create mode 100644 6-Projeto Clinica Delphi/unidCadPaciente.dfm
+ create mode 100644 6-Projeto Clinica Delphi/unidCadPaciente.pas
+ create mode 100644 6-Projeto Clinica Delphi/unidCadProntuario.dfm
+ create mode 100644 6-Projeto Clinica Delphi/unidCadProntuario.pas
+ create mode 100644 7-Projeto alocamento carga/Project1.dpr
+ create mode 100644 7-Projeto alocamento carga/Project1.dproj
+ create mode 100644 7-Projeto alocamento carga/Project1.dproj.local
+ create mode 100644 7-Projeto alocamento carga/Project1.identcache
+ create mode 100644 7-Projeto alocamento carga/Project1.res
+ create mode 100644 7-Projeto alocamento carga/Unit1.dfm
+ create mode 100644 7-Projeto alocamento carga/Unit1.pas
+ create mode 100644 7-Projeto alocamento carga/Win32/Debug/Project1.exe
+ create mode 100644 7-Projeto alocamento carga/Win32/Debug/Unit1.dcu
+ create mode 100644 7-Projeto alocamento carga/__history/Unit1.dfm.~1~
+ create mode 100644 7-Projeto alocamento carga/__history/Unit1.dfm.~2~
+ create mode 100644 7-Projeto alocamento carga/__history/Unit1.pas.~1~
+ create mode 100644 7-Projeto alocamento carga/__history/Unit1.pas.~2~
+ create mode 100644 7-Projeto alocamento carga/__history/Unit1.pas.~3~
+ create mode 100644 7-Projeto alocamento carga/__history/Unit1.pas.~4~
+ create mode 100644 7-Projeto alocamento carga/__history/Unit1.pas.~5~
+ rewrite README.md (100%)
+
+Yago@DESKTOP-DVGHV60 MINGW64 ~/yagoteste/Desafio_Dio_git_github (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Yago@DESKTOP-DVGHV60 MINGW64 ~/yagoteste/Desafio_Dio_git_github (main)
+$ git push origin main
+Enumerating objects: 195, done.
+Counting objects: 100% (195/195), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (188/188), done.
+Writing objects: 100% (193/193), 18.18 MiB | 2.34 MiB/s, done.
+Total 193 (delta 69), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (69/69), done.
+To https://github.com/YagoFagundes/Desafio-Dio-git-github.git
+   8ca2306..e17d478  main -> main
+
+Yago@DESKTOP-DVGHV60 MINGW64 ~/yagoteste/Desafio_Dio_git_github (main)
+$
